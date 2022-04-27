@@ -1,3 +1,3 @@
 # Aplicação To-do List
 
-Link: https://naldowebdeveloper.github.io/csb-fni07n/
+Link: https://csb-fni07n.netlify.app/

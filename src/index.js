@@ -19,5 +19,7 @@ formAddTodo.addEventListener("submit", (event) => {
 
 todosContainer.addEventListener("click", (event) => {
   const clickedElement = event.target;
-  console.log(clickedElement.ClassList);
+  if (Array.from(clickedElement.classList).includes("delete")) {
+    clickedElement.parentElement.remove();
+  }
 });
